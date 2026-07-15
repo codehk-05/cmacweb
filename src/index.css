@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Color Palette matching the CMAC logo */
+  --color-brand-navy: #17106B;
+  --color-brand-royal: #2816C8;
+  --color-brand-purple: #5D12B8;
+  --color-brand-lavender: #A582D9;
+  --color-brand-light-lavender: #EAE3FC;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color: #1a1a1a;
+    background-color: #ffffff;
+  }
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-dark {
+  background: rgba(23, 16, 107, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #A582D9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5D12B8;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CMAC Graphics",
+  "description": "Premium creative agency website for CMAC Graphics, specializing in modern branding, social media, print, digital marketing visuals, and luxury visual identity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
